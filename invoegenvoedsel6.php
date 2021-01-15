@@ -48,8 +48,8 @@
 	 
          <?php
 if(isset($_POST['getdata'])){
-$conn=mysqli_connect('localhost','testenvans_admin','wwAdmin01');
-mysqli_select_db($conn,"testenvans_4fcmtesten");
+$conn=mysqli_connect('localhost','specimenadmin','specimen');
+mysqli_select_db($conn,"testenvans_4specimen");
 
 // $regexp = "/^[^0-9][A-z0-9_]+([.][A-z0-9_]+)*[@][A-z0-9_]+([.][A-z0-9_]+)*[.][A-z]{2,4}$/"; 
 
